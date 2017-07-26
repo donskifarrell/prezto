@@ -11,3 +11,22 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+
+###########
+# Aliases #
+###########
+
+# Color ls
+alias ls='ls -GlahF'
+
+# Display as a list
+alias ll='pwd; ls -1ah'
+
+# Display the insides of a particular directory
+alias lv='pwd; ls -R'
+
+alias grep="grep --color=always"
+
+# GitTips help:
+# https://git.wiki.kernel.org/index.php/GitTips
+
