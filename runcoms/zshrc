@@ -13,6 +13,17 @@ fi
 # Customize to your needs...
 
 ###########
+# NVM 
+#
+# You should create NVM's working directory if it doesn't exist:
+#     mkdir ~/.nvm
+#
+###########
+
+export NVM_DIR="$HOME/.nvm"
+. "/usr/local/opt/nvm/nvm.sh"
+
+###########
 # Aliases #
 ###########
 
